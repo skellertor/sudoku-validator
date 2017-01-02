@@ -25,4 +25,8 @@ describe('Valid puzzle', function () {
         expect(lib.isValid(data.invalidblocks)).toBe(false);
         done();
     });
+    it('should be invalid blank element', function (done) {
+        expect(lib.isValid(data.invalidempty)).toBe(false);
+        done();
+    });
 });
