@@ -21,5 +21,5 @@ let puzzle = [1, 2, 7, 5, 3, 9, 8, 4, 6, 4, 5, 3, 8, 6, 1, 7, 9, 2, 8, 9, 6, 4, 
 console.log(sv.isValid(puzzle));
 //true
 ```
-*If there is an empty index, too many indexes (puzzle.length > 81 || puzzle.length < 81), a digit not between 1-9 inclusive, a repeated value in a row, column, or sub-grid, the validator will return `false`
+*If there is an empty index, too many indexes (puzzle.length > 81 || puzzle.length < 81), a digit not between 1-9 inclusive, a repeated value in a row, column, or sub-grid, the validator will return `false`*
 
